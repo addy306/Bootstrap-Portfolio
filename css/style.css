@@ -9,6 +9,8 @@ h1, h2, h3 , h4, h5, h6 {
   
   
   /* Navigation bar */
+
+  
   
   /* General */
   .customNav {
@@ -22,6 +24,8 @@ h1, h2, h3 , h4, h5, h6 {
   .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
+    --bs-nav-link-hover-color: #a51c4b;
+    --bs-navbar-brand-hover-color: #a51c4b;
   }
   .navbar-brand img {
     padding-right: 15px;
@@ -87,10 +91,12 @@ h1, h2, h3 , h4, h5, h6 {
       margin-left: 155px;
   }
   
-  /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+ 
   .dropdown-menu {
     left: -97px;
   }
+
+  
   footer {
     position: absolute;
     width: 100%;
