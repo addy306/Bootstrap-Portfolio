@@ -26,16 +26,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
+            <a class="nav-link" href="#portfolio">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Me</a>
+            <a class="nav-link" href="#contact">Contact Me</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
         </ul>
       </div>
@@ -47,14 +47,14 @@
   <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
     <div class="container-fluid py-5 jumboCopy">
       <h1 class="display-5 ">The future is here</h1>
-      <p class="col-md-12 fs-4 p-color">Front-end developer student with a degree in computing, skilled in WordPress, Photoshop, and GIMP. Experienced in building E-commerce and forum sites, currently managing an online forum with a focus on UI/UX design</p>
-      <button class="btn btn-lg" type="button">View Portfolio </button>
+      <p class="col-md-12 fs-4 p-color">I am a Front-end developer with an eye for UI and a brain for UX.</p>
+      <a href="#portfolio" class="btn btn-lg" type="button" >View My Portfolio </a>
     </div>
   </div>
   <!-- End jumbotron -->
 
-  <!-- Cards -->
-  <div class="content container-fluid">
+  <!-- Porfolio -->
+  <div class="content container-fluid" id="portfolio">
     <h2 class="sectionHeading">My Bootcamp Porfolio</h2>
     <div class="showsNear row">
       <!-- Card 1 -->
@@ -108,7 +108,7 @@
   <!-- End cards -->
 
   <!-- Skills Section -->
-  <div class="container-fluid content">
+  <div class="container-fluid content" id="skills">
   <h2 class="sectionHeading">Skills Section</h2>
   <div class="showsNear row">
   <!-- Card 1 -->
@@ -153,22 +153,22 @@
          </div>
 
          
-         !-- contact section-->
-         <section id="contact">
+        <!-- contact section-->
+         <section  id="contact">
              <div class="container mt-3 contactContent">
-                 <h1 class="text-center">Contact Me</h1>
+                 <!-- <h1 class="text-center">Contact Me</h1> -->
          
                  <div class="row mt-4">
-                     <div class="col-lg-6">
-                         <div class="card" style="width: 18rem;">
-                             <img src="images/my-image.jpg.png" class="card-img-top" alt="...">
-                             <div class="card-body">
-                               <p class="card-text">Front-end developer student with a degree in computing, skilled in WordPress, Photoshop, and GIMP. Experienced in building E-commerce and forum sites, currently managing an online forum with a focus on UI/UX design</p>
-                             </div>
-                           </div>
+                     <div class="col-lg-3" id="about-me">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="images/my-image.jpg" alt="">
+                            <h5>About Me</h5>
+                            <p class="fw-light mb-0">"Front-end developer student with a degree in computing, skilled in WordPress, Photoshop, and GIMP. Experienced in building E-commerce and forum sites, currently managing an online forum with a focus on UI/UX design"</p>
+                          </div>
                      </div>
          
                      <div class="col-lg-6">
+                        <h3> Contact Me</h3>
                          <!-- form fields -->
                          <form>
                              <input type="text" class="form-control form-control-lg" placeholder="Name">
@@ -192,7 +192,7 @@
   <footer>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar w/ text</a>
+      <a class="navbar-brand" href="https://github.com/addy306">My Github</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -202,14 +202,14 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#portfolio">Porfolio</a>
           </li>
         </ul>
         <span class="navbar-text">
-          Navbar text with an inline element
+          Adijat Salisu Portfolio
         </span>
       </div>
     </div>
